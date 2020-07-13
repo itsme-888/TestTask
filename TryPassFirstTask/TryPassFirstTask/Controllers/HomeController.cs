@@ -17,6 +17,8 @@ namespace TryPassFirstTask.Controllers
             return View();
         }
 
+        //http get 
+
         [HttpGet]
         public ActionResult Buy(int id)
         {
